@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/mccraveiro/standard-version-expo/compare/2.0.0...2.0.1) (2023-06-06)
+
+
+### Other chores
+
+* publish under npm scope ([9eb5b0c](https://github.com/mccraveiro/standard-version-expo/commit/9eb5b0c4cd5c229fc3426babaa3bd912149c8be8))
+
+
+### Bug fixes
+
+* build for commonjs ([becad4d](https://github.com/mccraveiro/standard-version-expo/commit/becad4de242857c9bdec3ab896d63b77c032bb1e))
+* package.json urls ([508a356](https://github.com/mccraveiro/standard-version-expo/commit/508a35669b6ebd85210a736b6aff5aa3c6ac3a2b))
+
 ## 2.0.0 (2023-06-06)
 
 
