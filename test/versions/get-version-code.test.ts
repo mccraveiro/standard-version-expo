@@ -46,4 +46,16 @@ describe('getVersionCode', () => {
 
     expect(getVersionCode(manifest, '3.2.1')).toBe(370030201);
   });
+
+  it('throws when minor version is higher than 99', () => {
+    expect(() => getVersionCode(stub.manifest(), '3.100.1')).toThrowError(
+      'Minor version cannot be higher than 99.'
+    );
+  });
+
+  it('throws when patch version is higher than 99', () => {
+    expect(() => getVersionCode(stub.manifest(), '3.2.100')).toThrowError(
+      'Patch version cannot be higher than 99.'
+    );
+  });
 });

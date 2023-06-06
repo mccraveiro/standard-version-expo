@@ -20,5 +20,13 @@ export function getVersionCode(manifest: AppJSONConfig, version: string): number
     throw new Error('Could not parse the new version from standard version.');
   }
 
+  if (target.minor >= 100) {
+    throw new Error('Minor version cannot be higher than 99.');
+  }
+
+  if (target.patch >= 100) {
+    throw new Error('Patch version cannot be higher than 99.');
+  }
+
   return expo.major * 10000000 + target.major * 10000 + target.minor * 100 + target.patch;
 }
