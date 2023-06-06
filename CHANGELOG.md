@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/mccraveiro/standard-version-expo/compare/2.0.1...2.0.2) (2023-06-06)
+
+
+### Other chores
+
+* update readme ([77b84fe](https://github.com/mccraveiro/standard-version-expo/commit/77b84fed4b260fe96885af25774bad769b02d9eb))
+
 ### [2.0.1](https://github.com/mccraveiro/standard-version-expo/compare/2.0.0...2.0.1) (2023-06-06)
 
 
