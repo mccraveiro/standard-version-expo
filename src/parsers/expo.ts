@@ -1,7 +1,7 @@
 import { AppJSONConfig } from '@expo/config';
 import jsonFile, { JSONObject } from '@expo/json-file';
 import detectIndent from 'detect-indent';
-import detectNewline from 'detect-newline';
+import { detectNewline } from 'detect-newline';
 
 import { VersionReader } from '../types';
 

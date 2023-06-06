@@ -1,5 +1,3 @@
-import path from 'path';
-
 import { getVersionCode } from '../../src/versions';
 import * as stub from '../stub';
 
@@ -44,8 +42,7 @@ describe('getVersionCode', () => {
 
   it('returns 370030201 for sdk 37 and version 3.2.1 from package.json', () => {
     const manifest = stub.manifest();
-    manifest.expo.nodeModulesPath = path.resolve(__dirname, './stubs');
-    delete manifest.expo.sdkVersion;
+    manifest.expo.sdkVersion = '37.0.0';
 
     expect(getVersionCode(manifest, '3.2.1')).toBe(370030201);
   });
