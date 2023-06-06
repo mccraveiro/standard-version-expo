@@ -10,14 +10,15 @@
     "bycedric"
   ],
   "author": "Cedric van Putten <me@bycedric.com> (https://bycedric.com)",
+  "contributors": ["Mateus Craveiro <mccraveiro@gmail.com>"],
   "license": "MIT",
-  "homepage": "https://github.com/expo-community/standard-version-expo#readme",
+  "homepage": "https://github.com/mccraveiro/standard-version-expo#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo-community/standard-version-expo.git"
+    "url": "https://github.com/mccraveiro/standard-version-expo.git"
   },
   "bugs": {
-    "url": "https://github.com/expo-community/standard-version-expo/issues"
+    "url": "https://github.com/mccraveiro/standard-version-expo/issues"
   },
   "main": "manifest/version.js",
   "files": [
