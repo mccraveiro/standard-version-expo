@@ -1,5 +1,5 @@
 import detectIndent from 'detect-indent';
-import { detectNewline } from 'detect-newline';
+import detectNewline from 'detect-newline';
 
 import * as expo from '../../src/parsers/expo';
 import * as stub from '../stub';

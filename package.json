@@ -10,7 +10,9 @@
     "bycedric"
   ],
   "author": "Cedric van Putten <me@bycedric.com> (https://bycedric.com)",
-  "contributors": ["Mateus Craveiro <mccraveiro@gmail.com>"],
+  "contributors": [
+    "Mateus Craveiro <mccraveiro@gmail.com>"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/mccraveiro/standard-version-expo#readme",
   "repository": {
@@ -38,8 +40,8 @@
   "dependencies": {
     "@expo/config": "^8.0.2",
     "@expo/json-file": "^8.2.37",
-    "detect-indent": "^7.0.1",
-    "detect-newline": "^4.0.0",
+    "detect-indent": "^6.0.0",
+    "detect-newline": "^3.1.0",
     "globby": "^13.1.4",
     "semver": "^7.5.1"
   },
