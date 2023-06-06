@@ -2,11 +2,11 @@
   <h1>Standard Version Expo</h1>
   <p>Automatic <a href="https://github.com/expo/expo">Expo</a> versioning with <a href="https://github.com/conventional-changelog/standard-version">Standard Version</a></p>
   <p>
-    <a href="https://github.com/expo-community/standard-version-expo/releases">
-      <img src="https://img.shields.io/github/release/expo-community/standard-version-expo/all.svg" alt="releases" />
+    <a href="https://github.com/mccraveiro/standard-version-expo/releases">
+      <img src="https://img.shields.io/github/release/mccraveiro/standard-version-expo/all.svg" alt="releases" />
     </a>
-    <a href="https://github.com/expo-community/standard-version-expo/actions">
-      <img src="https://img.shields.io/github/workflow/status/expo-community/standard-version-expo/CI/master.svg" alt="builds" />
+    <a href="https://github.com/mccraveiro/standard-version-expo/actions">
+      <img src="https://img.shields.io/github/workflow/status/mccraveiro/standard-version-expo/CI/master.svg" alt="builds" />
     </a>
     <a href="https://dev.to/bycedric/simplify-expo-releases-with-standard-version-2f4o">
       <img src="https://img.shields.io/badge/guide-dev.to-lightgrey" alt="guide" />
@@ -14,7 +14,7 @@
   </p>
   <br />
   <br />
-  <pre>npm i -D standard-version@next standard-version-expo</pre>
+  <pre>npm i -D standard-version@next @mccraveiro/standard-version-expo</pre>
 </div>
 
 ## What's inside?
@@ -46,15 +46,15 @@ module.exports = {
     },
     {
       filename: 'app.json',
-      updater: require.resolve('standard-version-expo'),
+      updater: require.resolve('@mccraveiro/standard-version-expo'),
     },
     {
       filename: 'app.json',
-      updater: require.resolve('standard-version-expo/android'),
+      updater: require.resolve('@mccraveiro/standard-version-expo/android'),
     },
     {
       filename: 'app.json',
-      updater: require.resolve('standard-version-expo/ios'),
+      updater: require.resolve('@mccraveiro/standard-version-expo/ios'),
     },
   ],
 };
