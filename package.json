@@ -52,7 +52,7 @@
     "eslint-config-universe": "^9.0.0",
     "jest": "^25.3.0",
     "prettier": "^2.5.1",
-    "standard-version": "^7.1.0",
+    "standard-version": "^9.5.0",
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   }
