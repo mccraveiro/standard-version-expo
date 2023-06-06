@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.3](https://github.com/mccraveiro/standard-version-expo/compare/2.0.2...2.0.3) (2023-06-06)
+
+
+### Bug fixes
+
+* minor and patch version overflow ([45cd35c](https://github.com/mccraveiro/standard-version-expo/commit/45cd35c077c00d40993f24e518a62b56a213613f))
+
 ### [2.0.2](https://github.com/mccraveiro/standard-version-expo/compare/2.0.1...2.0.2) (2023-06-06)
 
 
