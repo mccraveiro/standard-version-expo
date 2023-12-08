@@ -41,7 +41,7 @@
     "@expo/config": "^8.0.2",
     "@expo/json-file": "^8.2.37",
     "detect-indent": "^6.0.0",
-    "detect-newline": "^3.1.0",
+    "detect-newline": "^4.0.1",
     "globby": "^14.0.0",
     "semver": "^7.5.4"
   },
