@@ -1,6 +1,6 @@
 {
   "name": "@mccraveiro/standard-version-expo",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Automatic Expo versioning with Standard Version",
   "keywords": [
     "expo",
